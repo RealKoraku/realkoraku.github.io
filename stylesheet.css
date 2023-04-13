@@ -18,3 +18,10 @@ h1 {
 img{
 	border-radius:35%;
 }
+.hero{
+	outline:10px solid darkred;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
