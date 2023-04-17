@@ -1,4 +1,3 @@
-
 html, body{
 	background-color: lightgray;
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -24,8 +23,17 @@ h2 {
 	font-size:24px;
 	line-height:40px;
 	font_weight:bold;
+	color:darkred;
 }
 a {
+	color:darkred;
+}
+
+a:hover{
+	color:red;
+}
+
+header > p {
 	color:darkred;
 }
 
@@ -40,6 +48,11 @@ a {
 	width:100%;
 	height:100%;
 }
+
+.hero > h1 {
+	color:darkred;
+}
+
 .headshot{
 	width:300px;
 	height:370px;
@@ -54,3 +67,27 @@ a {
 	box-shadow: 0px 0px 40px 20px #44aba8,
 				0px 0px 100px 20px #fff inset;
 }
+.blocklist > li {
+	list-style-type:none;
+	border-style:solid;
+	border-width:15px;
+	border-color:lightgray teal;
+}
+.blocklist > li > img {
+ 	justify-content:center;
+	width:150px;
+	height:150px;
+	float:left;
+	max-width:800px;
+ }
+ 
+ .blocklist > li:nth-child(odd){
+	 flex-direction:row;
+	 text-align:left;
+	 border-left-width:0;
+ }
+ .blocklist > li:nth-child(even){
+	 flex-direction:row-reverse;
+	 text-align:right;
+	 border-right-width:0;
+ }
