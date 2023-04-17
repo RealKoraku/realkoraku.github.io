@@ -91,17 +91,20 @@ header > p {
 	height:150px;
 	float:left;
 	max-width:800px;
- }
+}
  
- .blocklist > li:nth-child(odd){
-	 flex-direction:row;
-	 text-align:left;
-	 border-left-width:0;
+.blocklist > li:nth-child(odd){
+	flex-direction:row;
+	text-align:left;
+	border-left-width:0;
+}
+.blocklist > li:nth-child(even){
+	flex-direction:row-reverse;
+	text-align:right;
+	border-right-width:0;
  }
- .blocklist > li:nth-child(even){
-	 flex-direction:row-reverse;
-	 text-align:right;
-	 border-right-width:0;
- }
- 
- 
+address{
+	white-space:pre-line;
+	color:darkred;
+	font-style:normal;
+}
