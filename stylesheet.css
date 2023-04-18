@@ -108,3 +108,22 @@ address{
 	color:darkred;
 	font-style:normal;
 }
+.nav {
+	width:95%;
+	display:flex;
+	position:fixed;
+}
+
+.nav li{
+	list-style-type:none;
+	flex-grow:1;
+}
+
+.nav li a{
+	display:block;
+	line-height:50px;
+	background-color:teal;
+}
+.nav li a:hover{
+	background-color:aquamarine;
+}
